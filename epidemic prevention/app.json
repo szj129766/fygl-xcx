@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/newly/index",
+    "pages/mine/index"
+  ],
+  "tabBar": {
+    "custom":true,
+    "color": "#8D8E90",
+    "selectedColor": "#309E8E",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "任务大厅",
+        "iconPath": "./img/renwu1.png",
+        "selectedIconPath": "./img/renw.png"
+      },
+      {
+        "pagePath": "pages/newly/index",
+        "iconPath": "img/new.png",
+        "selectedIconPath": "img/new.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "img/my1.png",
+        "selectedIconPath": "img/my.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#309E8E",
+    "navigationBarTitleText": "福田防疫转运",
+    "navigationBarTextStyle":"white"
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

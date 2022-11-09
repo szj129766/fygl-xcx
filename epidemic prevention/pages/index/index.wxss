@@ -1,0 +1,79 @@
+.nave{
+  display: flex;
+  justify-content: space-between;
+}
+.nave-lift{
+  width: 60%;
+  display: flex;
+  justify-content: space-between; 
+  font-size: 40rpx;
+  color: #3B3C3F;
+}
+.nave-lift span{
+  width: 165rpx;
+  height: 50rpx;
+  border: 4rpx solid #FF0C00;
+  border-radius: 10rpx;
+  color: #FF1004;
+  text-align: center;
+  background: rgba(255,12,0,0.08);
+  line-height: 50rpx;
+  font-size: 35rpx;
+}
+.container .nave-bom{
+  width: 100%;
+ line-height: 65rpx;
+ margin-top: 35rpx;
+ position: relative;
+}
+button{
+position: absolute;
+right: 20rpx;
+bottom: 0;
+}
+.nabbb{
+ padding: 30rpx;
+ border-bottom: 2rpx solid #D4D4D4;
+ font-size: 28rpx;
+ font-family: PingFangSC-Regular, PingFang SC;
+ font-weight: 400;
+   color: #3B3C3F;
+}
+page{
+  background-color: #F5F5F9;
+}
+.iconfont{
+  color: #309E8E;
+  font-size: 200rpx;
+  position: absolute;
+  bottom: 0;
+}
+.iconfontss{
+  position: relative;
+}
+image{
+width: 45rpx;
+height: 100rpx;
+vertical-align:middle;
+margin-left: 5rpx;
+}
+.texts{
+  width: 78rpx;
+ height: 36rpx;
+  position: relative;
+  font-size: 26rpx;
+font-family: PingFangSC-Medium, PingFang SC;
+font-weight: 600;
+color: #FF0C00;
+}
+.texts:after{
+  display: block;
+  content:"";
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  background-color: #FF0C00;
+  position: absolute;
+  left: -30rpx;
+  top: 10rpx;
+}

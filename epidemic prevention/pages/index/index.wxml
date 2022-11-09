@@ -1,0 +1,22 @@
+<view class="container">
+<view class="nabbb" wx:for="item 5" wx:key="item">
+<view class="nave">
+<view class="nave-lift">
+<view>转运人数2人</view>
+<span>中高风险</span>
+</view>
+<view class="texts"> 未发布</view>
+</view>
+<view class="nave-bom">
+<view>转运人员：张三，李四  <image src="../../img/fone.png" mode="widthFix"/></view>
+<view>隔离酒店：----</view>
+<view>现住地址：xxx</view>
+<view>发布人：124357  <image src="../../img/fone.png" mode="widthFix"/></view>
+<view>
+  创建时间：2022-11-03 16:39:41
+</view>
+</view>
+</view>
+
+</view>
+

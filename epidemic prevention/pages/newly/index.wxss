@@ -1,0 +1,14 @@
+/* pages/newly/index.wxss */
+page{
+  background-color:#F4F4F4;
+  position: relative;
+}
+.build{
+  width: 750rpx;
+  height: 1484rpx;
+  background: #FFFFFF;
+  border-radius: 32rpx 32rpx 0px 0px;
+  position: absolute;
+  top: -80rpx;
+  z-index: 44;
+}
